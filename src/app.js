@@ -92,7 +92,6 @@ const obtenerProductos = async limit => {
             for (let index = 0; index < limit; index++) {
                 productos[index] && productosFiltrados.push(productos[index]);
             }
-            productos = productosFiltrados;
         }
         
         return productos;
